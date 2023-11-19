@@ -1,13 +1,13 @@
 body {
 	background-color: #CFE1FF; /*#CACADD;*/
-	background-image: url('img/w1.jpg');
+	background-image: url('img/w2.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 100% 100%;
 }
 
 div.plane {
-	background-color: #F5FBFD;
+	background-color: #f5fbfda6;
 	color: #313233; 
 	margin: 0 8em 0 8em;
 	min-width: 55em;
