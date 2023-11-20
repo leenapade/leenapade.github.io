@@ -19,7 +19,7 @@ div.plane {
 hr {
 	margin-left: 2em;
     margin-right: 2em;
-    margin-top: 2em;
+    margin-top: 5em;
     border-width: thin;
     border-style: groove;
 }
@@ -28,7 +28,7 @@ div.main {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	margin-left: 5%;
 	width: 90%;
-	font-size:medium;
+	font-size: x-large;
 	text-align:left;
 }
 
@@ -45,7 +45,7 @@ div.main {
 div.name_in_pic {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-variant: small-caps;/*normal*/
-	font-size: large;
+	font-size: larger;
 	text-align: left;
 	color: black;
 	
@@ -58,9 +58,10 @@ div.name_in_pic {
 div.name {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-variant: small-caps;/*normal*/
-	font-size: large;
+	font-size: 22px;
 	text-align: left;
 	color: black;
+	vertical-align: middle;
 }
 
 div.project_video_odd {
@@ -96,6 +97,10 @@ div.project_video_even {
 	width: 45%;
 }
 
+#footer h4 {
+    font-size: x-large; /* Adjust the font size as needed */
+}
+
 #footer hr{
     margin-left: 0;
     margin-right: 15%;
@@ -112,6 +117,7 @@ div.project_video_even {
 	<border-radius: 10% 10%;
 	float: right;
 	margin-right: 0%;
+	vertical-align: middle;
 }
 
 #rudbeats_image {
@@ -133,12 +139,38 @@ address {
 #nav {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-variant: small-caps;
-	font-size: large;
+	font-size: x-large;
 	text-align: right;
 	list-style-type: none;
 	margin: 0.5em 8em 0.5em 0em;
 	min-width: 55em;
 	overflow: hidden;
+}
+#left {
+    width: 45%;
+    padding-left: 5%;
+    padding-bottom: 1em;
+}
+
+#left h4 {
+    font-size: x-large; /* Adjust the font size as needed */
+}
+
+#left p {
+    font-size: larger; /* Adjust the font size for the text under "Biography" */
+}
+
+#right {
+    float: right;
+    width: 45%;
+}
+
+#right h4 {
+    font-size: x-large; /* Adjust the font size as needed */
+}
+
+#right p {
+    font-size: larger; /* Adjust the font size for the text under "Research Areas of Interest" */
 }
 
 #nav li {
