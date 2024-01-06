@@ -8,7 +8,7 @@ body {
 
 div.plane {
 	background-color: #f5fbfda6;
-	color: #313233; 
+	color: #070707; 
 	margin: 0 8em 0 8em;
 	min-width: 55em;
 	border-right-style: groove;
@@ -47,7 +47,7 @@ div.name_in_pic {
 	font-variant: small-caps;/*normal*/
 	font-size: larger;
 	text-align: left;
-	color: black;
+	color: rgb(1, 1, 1);
 	
 	position: absolute;
 	min-width: 30em;
@@ -60,7 +60,7 @@ div.name {
 	font-variant: small-caps;/*normal*/
 	font-size: 22px;
 	text-align: left;
-	color: black;
+	color: rgb(2, 2, 2);
 	vertical-align: middle;
 }
 
@@ -174,7 +174,7 @@ address {
 }
 
 #nav li {
-	color: black;
+	color: rgb(0, 0, 0);
 	width: 9em;
 	display: inline-block;	
 	
@@ -186,7 +186,7 @@ address {
 }
 
 #nav a {
-	color: black;
+	color: rgb(115, 113, 113);
 	font-weight: bold;
 	text-decoration: none;
 	display: block;

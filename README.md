@@ -4,7 +4,7 @@ Leena's personal webpage
 # instructions 
 steps for git:
 
-1) Be inside the git folder
+1) Be inside the git folder- use cd
 2) make changes
 3) cmd: git add .
 4) cmd: git commit -m "what changed message"
